@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,7 +14,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
+
 # Interactive Profile Card (React Fundamental) - Week 4
 
 Proyek antarmuka web interaktif berbasis React dan Vite yang dibuat untuk memenuhi penugasan individu Week 4 mata kuliah ISB II.
@@ -68,4 +67,3 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal:
 
 4. Buka di Browser:
    Akses URL lokal yang ditampilkan di terminal -> http://localhost:5173/
->>>>>>> temp-branch
