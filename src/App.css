@@ -1,18 +1,20 @@
 .app-container {
+  width: 100%;
   min-height: 100vh;
-  background-color: #f8fafc;
-  padding: 2.5rem 1rem;
+  background-color: #f8fafc; /* Latar belakang penuh */
+  padding: 3rem 1.5rem;
 }
 
+/* Header */
 .header {
   text-align: center;
   margin-bottom: 2.5rem;
 }
 
 .header-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: #0f172a;
   margin-bottom: 0.5rem;
 }
 
@@ -21,23 +23,25 @@
   color: #64748b;
 }
 
+/* Grid Kartu */
 .card-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
+/* Card */
 .card {
   background-color: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 1rem;
   padding: 1.5rem;
   width: 100%;
-  max-width: 260px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  max-width: 280px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,7 +51,7 @@
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
 }
 
 .card-name {
@@ -101,7 +105,7 @@
   padding: 0.4rem 0.85rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, transform 0.1s;
 }
 
 .btn-like:hover {
