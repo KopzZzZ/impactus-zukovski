@@ -34,23 +34,6 @@ Aplikasi ini mendemonstrasikan implementasi dasar React meliputi pembuatan kompo
 - **Multiple Cards (Tantangan Opsional)**: Menampilkan 5 kartu profil dengan informasi yang beragam menggunakan pemanggilan komponen `<Card />` berulang di `App.jsx`.
 - **Pure CSS Styling**: Tampilan antarmuka yang bersih, modern, dan terstruktur rapi menggunakan Vanilla CSS (`App.css` dan `index.css`) dengan tipografi Google Fonts Poppins.
 
----
-
-## Struktur Folder
-
-impactus-zukovski/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── Card.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-└── README.md
-
 ## Cara Menjalankan Proyek di Lokal
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal:
 
