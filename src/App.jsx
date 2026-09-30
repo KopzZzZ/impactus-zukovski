@@ -5,13 +5,11 @@ import "./App.css";
 function App() {
   return (
     <div className="app-container">
-      {/* 1. Header dipanggil */}
       <Header
         title="Interactive Profile Card"
         subtitle="Tugas Week 4 Bootcamp"
       />
-
-      {/* 2. Card dipanggil berulang kali dengan isi props yang berbeda */}
+      
       <main className="card-grid">
         <Card
           nama="Zukovski"
